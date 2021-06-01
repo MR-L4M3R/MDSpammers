@@ -23,16 +23,16 @@ def main():
 def logo():
   print """%s
   __  __ ___    ___                                   
- |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %MR.L4M3RXploit11%s
- | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/MR.L4M3R%s
+ |  \/  |   \  / __|_ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %MR.L4M3R%s
+ | |\/| | |) | \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/MR-L4M3R%s
  |_|  |_|___/  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ %sTeam %SUMBER CYBER TEAM%s
                    |_|                                 %sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
-  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (8888xx) : "%(pu,me,pu,pu))
+  nom = raw_input("%s[%s?%s] %sMasukkan nomor target yang mau di siksa (8888xx) : "%(pu,me,pu,pu))
   if len(nom) < 5:
-    print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
+    print "%s[%s!%s] %sMasukkan nomor target dengan benar tod!! "%(pu,me,pu,me)
     input()
   elif nom.startswith(tuple(["62","+62","0"])):
     print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 85877162199"%(pu,me,pu,ku,pu,me,pu,ku)
